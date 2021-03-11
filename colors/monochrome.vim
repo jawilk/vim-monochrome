@@ -115,7 +115,7 @@ call s:hi('SignColumn')
 " --- Programming languages ----------------------------------------------------
 "
 
-"call s:hi('Statement', s:yellow, s:default_bg, s:bold)
+call s:hi('Statement', s:#b83c3c, s:default_bg, s:bold)
 call s:hi('PreProc', s:white, s:default_bg, s:bold)
 call s:hi('String', s:sblue)
 call s:hi('Comment', s:cgray, s:default_bg, s:comment_attr)
