@@ -23,7 +23,7 @@ let s:sblue  = ['#778899', 67]
 let s:yellow = ['Yellow', 226]
 let s:red    = ['#b6403a', 160]
 let s:green  = ['#478226', 28]
-let s:test   = ['#DCA11C', 226]
+let s:test   = ['#DCA11C', 220]
 
 let s:default_fg = s:lgray
 let s:default_bg = s:black
@@ -116,7 +116,7 @@ call s:hi('SignColumn')
 " --- Programming languages ----------------------------------------------------
 "
 
-call s:hi('Statement', '#dca11c', s:default_bg, s:bold)
+call s:hi('Statement', s:test, s:default_bg, s:bold)
 call s:hi('PreProc', s:white, s:default_bg, s:bold)
 call s:hi('String', s:sblue)
 call s:hi('Comment', s:cgray, s:default_bg, s:comment_attr)
