@@ -13,32 +13,18 @@ endif
 
 let g:colors_name = 'monochrome'
 
-"let s:white  = ['White', 15]
-let s:red    = ['#b6403a', 160]
-let s:white  =  ['#b6403a', 160]  
-let s:black  =  ['#b6403a', 160] 
-let s:bgray  =  ['#b6403a', 160] 
-let s:lgray  =  ['#b6403a', 160]
-let s:cgray  =  ['#b6403a', 160]
-let s:dgray  =  ['#b6403a', 160]
-"let s:sblue  = ['#s:red 778899', 67]
-let s:yellow =  ['#b6403a', 160]
-let s:sblue =  ['#b6403a', 160]
-let s:green  =  ['#b6403a', 160]
-let s:test   = ['#b6403a', 160]
 
-"let s:white  = ['#e4e4e4', 15]
-"let s:black  = ['#0e1111', 16]
-"let s:bgray  = ['#181818', 233]
-"let s:lgray  = ['LightGray', 255]
-"let s:cgray  = ['#737373', 243]
-"let s:dgray  = ['DarkGray', 248]
-""let s:sblue  = ['#778899', 67]
-"let s:yellow = ['Yellow', 226]
-"let s:red    = ['#b6403a', 160]
-"let s:sblue = s:red
-"let s:green  = ['#478226', 28]
-"let s:test   = ['#DCA11C', 150]
+let s:white  = ['#e4e4e4', 15]
+let s:black  = ['#0e1111', 16]
+let s:bgray  = ['#181818', 233]
+let s:lgray  = ['LightGray', 255]
+let s:cgray  = ['#737373', 243]
+let s:dgray  = ['DarkGray', 248]
+let s:sblue  = ['#778899', 67]
+let s:yellow = ['Yellow', 226]
+let s:red    = ['#b6403a', 160]
+let s:green  = ['#478226', 28]
+let s:test   = ['#DCA11C', 150]
 
 let s:default_fg = s:lgray
 let s:default_bg = s:black
@@ -131,14 +117,10 @@ call s:hi('SignColumn')
 " --- Programming languages ----------------------------------------------------
 "
 
-call s:hi('Statement', s:test, s:yellow, s:bold)
-"call s:hi('Statement', s:test, s:default_bg, s:bold)
-call s:hi('PreProc', s:yellow, s:yellow, s:bold)
-"call s:hi('PreProc', s:white, s:default_bg, s:bold)
-call s:hi('String', s:yellow)
-"call s:hi('String', s:white)
-call s:hi('Comment', s:yellow, s:yellow, s:comment_attr)
-"call s:hi('Comment', s:cgray, s:default_bg, s:comment_attr)
+call s:hi('Statement', s:test, s:default_bg, s:bold)
+call s:hi('PreProc', s:white, s:default_bg, s:bold)
+call s:hi('String', s:white)
+call s:hi('Comment', s:cgray, s:default_bg, s:comment_attr)
 call s:hi('Constant', s:test)
 call s:hi('Type', s:white, s:default_bg, s:bold)
 call s:hi('Function', s:white)
