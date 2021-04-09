@@ -14,18 +14,31 @@ endif
 let g:colors_name = 'monochrome'
 
 "let s:white  = ['White', 15]
-let s:white  = ['#e4e4e4', 15]
-let s:black  = ['#0e1111', 16]
-let s:bgray  = ['#181818', 233]
-let s:lgray  = ['LightGray', 255]
-let s:cgray  = ['#737373', 243]
-let s:dgray  = ['DarkGray', 248]
-"let s:sblue  = ['#778899', 67]
-let s:yellow = ['Yellow', 226]
 let s:red    = ['#b6403a', 160]
+let s:white  = s:red 
+let s:black  = s:red
+let s:bgray  = s:red
+let s:lgray  = s:red
+let s:cgray  = s:red
+let s:dgray  = s:red
+"let s:sblue  = ['#s:red 778899', 67]
+let s:yellow = s:red
 let s:sblue = s:red
-let s:green  = ['#478226', 28]
-let s:test   = ['#DCA11C', 150]
+let s:green  = s:red
+let s:test   = s:red
+
+"let s:white  = ['#e4e4e4', 15]
+"let s:black  = ['#0e1111', 16]
+"let s:bgray  = ['#181818', 233]
+"let s:lgray  = ['LightGray', 255]
+"let s:cgray  = ['#737373', 243]
+"let s:dgray  = ['DarkGray', 248]
+""let s:sblue  = ['#778899', 67]
+"let s:yellow = ['Yellow', 226]
+"let s:red    = ['#b6403a', 160]
+"let s:sblue = s:red
+"let s:green  = ['#478226', 28]
+"let s:test   = ['#DCA11C', 150]
 
 let s:default_fg = s:lgray
 let s:default_bg = s:black
