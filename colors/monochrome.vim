@@ -126,7 +126,7 @@ call s:hi('Type', s:white, s:default_bg, s:bold)
 call s:hi('Function', s:white)
 call s:hi('Identifier')
 call s:hi('Special')
-call s:hi('MatchParen', s:white, s:white)
+call s:hi('MatchParen', s:red, s:red)
 
 
 "
